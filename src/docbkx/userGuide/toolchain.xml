@@ -4,21 +4,18 @@
 %myents;
 ]>
 <section id="tool"  xmlns="http://docbook.org/ns/docbook" version="5.0">
-  <title>
-    The <command>mindc</command> command.
-  </title>
+  <title>The <command>mindc</command> command</title>
 
   <para>The &productName; toolchain allows to compile component-based application.
     That is, the toolchain is responsible to read and check ADL, IDL and CPL files, 
     to generate the C glue-code, and to execute the C-compiler and linker. All these
     steps are completely automated through a single <command>mindc</command> command.</para>
     
-  <para>
-    The <command>mindc</command> command has the following forms :
-    <cmdsynopsis>
+  <para> The <command>mindc</command> command has the following syntax :<cmdsynopsis>
       <command>mindc</command>
       <arg choice="opt" rep="repeat"><replaceable>OPTIONS</replaceable></arg>
-      <arg choice="req" rep="repeat"><replaceable>adlname</replaceable><arg choice="opt">:<replaceable>execname</replaceable></arg></arg>
+      <arg choice="req" rep="repeat"><replaceable>adlname</replaceable><arg choice="opt"
+            >:<replaceable>execname</replaceable></arg></arg>
     </cmdsynopsis>
   </para>
   
